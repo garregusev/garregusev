@@ -44,3 +44,7 @@ Projects run on Flutter and native Kotlin, with a Python/Postgres backend.
 Agents are fast and confident, so the expensive failure isn't bad code — it's plausible code nobody
 checked against what it was supposed to do. Most of my process is turning "someone should check that"
 into a step that can't be skipped.
+
+---
+
+📬 [LinkedIn](https://www.linkedin.com/in/gusev-igor/)
