@@ -25,9 +25,22 @@ value.
   — including the month the eCPM "broke" and why fixing it would have been a mistake.
 - **SnipShot** — area and scrolling screenshots for Android. Native Kotlin, capture via
   AccessibilityService instead of MediaProjection so there's no consent dialog on every shot.
-  [Case study](https://github.com/garregusev/shipping-with-agents/blob/main/case-studies/snipshot.md).
+  [Case study](https://github.com/garregusev/shipping-with-agents/blob/main/case-studies/snipshot.md)
+  · the capture mechanism is open source:
+  [android-scroll-capture](https://github.com/garregusev/android-scroll-capture).
 - **[sms-to-telegram](https://github.com/garregusev/sms-to-telegram)** — forwards incoming SMS to a
-  Telegram chat. Kotlin, BroadcastReceiver plus a WorkManager catch-up pass.
+  Telegram chat, for when the SIM with your bank codes lives in another country. Kotlin,
+  BroadcastReceiver plus a WorkManager catch-up pass. Distributed as an APK rather than on Play,
+  [and the README says why](https://github.com/garregusev/sms-to-telegram#why-not-google-play).
+
+### 🔧 Open source
+
+- **[android-scroll-capture](https://github.com/garregusev/android-scroll-capture)** — how to do area
+  and scrolling screenshots on Android without MediaProjection, extracted from SnipShot. Documents the
+  two things the API docs don't: the two-stroke gesture that stops lists from flinging, and frame
+  matching that doesn't trust the scroll distance.
+- **[shipping-with-agents](https://github.com/garregusev/shipping-with-agents)** — the process above,
+  written down.
 
 ### 🛠 Where I work
 
